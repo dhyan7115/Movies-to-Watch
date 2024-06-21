@@ -1,0 +1,66 @@
+html{
+    background:#5A639C;
+}
+li{
+    font-size: 20px;
+    font-weight: 600;
+}
+#Plot{
+    font-size: 20px;
+    font-weight: 600;
+}
+h1{
+    background-color: #6F4E37;
+    color:black;
+    text-align:center;}
+    h2{
+        background-color: #6F4E37;
+        color:black;
+        }
+    
+img{
+    height:200px;
+    width:200px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
+    margin: 0 10px;
+    flex-basis: 23%; /* Adjust the percentage as needed to fit your design */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.image-container h2 {
+    margin: 5px 0;
+}
+
+.image-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.image-container a:hover {
+    text-decoration: underline;
+}
